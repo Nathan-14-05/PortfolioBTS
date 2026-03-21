@@ -6,6 +6,7 @@ import Experiences from '../components/Experiences';
 import Formations from '../components/Formations';
 import Certifications from '../components/Certifications';
 import Veille from '../components/Veille';
+import Synthese from '../components/Synthese';
 import Contact from '../components/Contact';
 
 export default function Home() {
@@ -31,6 +32,9 @@ export default function Home() {
         </div>
         <div id="veille">
           <Veille />
+        </div>
+        <div id="synthese">
+          <Synthese />
         </div>
         <div id="contact">
           <Contact />
