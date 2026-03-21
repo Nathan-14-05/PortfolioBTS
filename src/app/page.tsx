@@ -5,6 +5,7 @@ import Skills from '../components/Skills';
 import Experiences from '../components/Experiences';
 import Formations from '../components/Formations';
 import Certifications from '../components/Certifications';
+import Veille from '../components/Veille';
 import Contact from '../components/Contact';
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
         </div>
         <div id="certifications">
           <Certifications />
+        </div>
+        <div id="veille">
+          <Veille />
         </div>
         <div id="contact">
           <Contact />
