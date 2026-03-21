@@ -26,7 +26,7 @@ const projectsData = [
     statusIcon: <User size={12} />,
     description: "Projet personnel visant à concevoir un jeu vidéo complet en Python. Deux versions ont été faites : une version console pour la logique pure et une version graphique avec PyGame pour une expérience utilisateur plus immersive.",
     tags: ["Python", "PyGame", "Logique de jeu"],
-    image: "puissance-4.png",
+    image: "projects/puissance-4.png",
     links: { github: "https://github.com/Nathan-14-05/Puissance4", demo: "#" }
   },
   {
