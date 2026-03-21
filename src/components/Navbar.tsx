@@ -9,9 +9,10 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Accueil', href: '#' },
     { name: 'Projets', href: '#projets' },
+    { name: 'Compétences', href: '#competences' },
     { name: 'Expériences', href: '#experiences' },
     { name: 'Formations', href: '#formations' },
-    { name: 'Compétences', href: '#competences' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -50,7 +51,7 @@ const Navbar = () => {
           <ThemeToggle /> {/* <--- On a ajouté le bouton ici */}
           
           <a 
-            href="/cv-nathan.pdf" 
+            href="/cv_portfolio.pdf" 
             className="bg-blue-600 text-white px-5 py-2 rounded-xl text-sm font-bold hover:bg-blue-700 transition-all shadow-lg shadow-blue-500/20"
           >
             <span className="hidden xs:inline">Télécharger le </span>CV
