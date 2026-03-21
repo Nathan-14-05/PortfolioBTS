@@ -19,27 +19,49 @@ const projectsData = [
     links: { github: "https://github.com/Nathan-14-05/Blog_Communautaire", demo: "#" }
   },
   {
-    title: "Portfolio 3D Interactif",
-    category: "portfolio",
-    type: "Projet perso",
+    title: "Jeu Puissance 4 – Python",
+    category: "app",
+    type: "Projet scolaire",
     status: "Open Source",
     statusIcon: <User size={12} />,
-    description: "Portfolio personnel développé avec React et Three.js, proposant une expérience immersive en 3D sur desktop et une version optimisée pour mobile.",
-    tags: ["React", "Three.js", "TailwindCSS"],
-    image: "/api/placeholder/400/220",
-    links: { github: "#", demo: "#" }
+    description: "Projet personnel visant à concevoir un jeu vidéo complet en Python. Deux versions ont été faites : une version console pour la logique pure et une version graphique avec PyGame pour une expérience utilisateur plus immersive.",
+    tags: ["Python", "PyGame", "Logique de jeu"],
+    image: "puissance-4.png",
+    links: { github: "https://github.com/Nathan-14-05/Puissance4", demo: "#" }
   },
   {
-    title: "Tanso - Création Musicale",
-    category: "web",
-    type: "Projet de cours",
-    status: "Projet scolaire",
+    title: "Base de Données Mariage – SQL",
+    category: "sql",
+    type: "Projet scolaire",
+    status: "Open source",
     statusIcon: <GraduationCap size={12} />,
     description: "Projet scolaire consistant à concevoir une base de données à partir d’un besoin client réel : l’organisation d’un mariage. L’objectif était de modéliser, implémenter et exploiter une base regroupant différents prestataires et leurs services.",
     tags: ["SQL", "Modélisation UML", "Base de données relationnelle"],
-    image: "projects/bdd_portfolio",
+    image: "projects/bdd_portfolio.png",
     links: { github: "#", demo: "#" }
-  }
+  },
+  {
+    title: "Infrastructure Systèmes & Réseau – Virtualisation",
+    category: "reseau",
+    type: "Projet scolaire",
+    status: "private",
+    statusIcon: <GraduationCap size={12} />,
+    description: "Projet scolaire axé sur la mise en place d’une infrastructure virtualisée. L’objectif était d’installer, configurer et faire communiquer deux machines virtuelles (Windows & Linux), tout en déployant des services réseau et des accès sécurisés.",
+    tags: ["VirtualBox", "Windows", "Debian", "Réseau", "Apache", "SSH"],
+    image: "projects/reseau.png",
+    links: { github: "#", demo: "#" }
+  },
+  {
+    title: "Simulation de Robots Mineurs – Java",
+    category: "app",
+    type: "Projet scolaire",
+    status: "Open source",
+    statusIcon: <GraduationCap size={12} />,
+    description: "Projet scolaire en groupe visant à concevoir une simulation d’un monde en grille peuplé de robots autonomes. Chaque robot devait explorer l’environnement, extraire des minerais et optimiser ses déplacements vers des zones de stockage.",
+    tags: ["Java", "OpenJDK 21", "Maven", "JavaFX", "GitHub", "Algorithmique"],
+    image: "projects/robot-mineurs.png",
+    links: { github: "https://github.com/BoujuMaxime/SAE-2.01-02", demo: "#" }
+  },
 ];
 
 const Projects = () => {
@@ -60,7 +82,7 @@ const Projects = () => {
             Mes Projets
           </h2>
           <div className="flex flex-wrap justify-center gap-3 mt-10">
-            {['all', 'web', 'mobile', 'sql', 'portfolio'].map((cat) => (
+            {['all', 'web', 'sql', 'reseau', 'app', 'portfolio'].map((cat) => (
               <button
                 key={cat}
                 onClick={() => setFilter(cat)}
