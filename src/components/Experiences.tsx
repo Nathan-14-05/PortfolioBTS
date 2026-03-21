@@ -126,7 +126,7 @@ const Experiences = () => {
             </p>
             
             <a 
-              href="/cv-nathan-mboueya.pdf" // Assure-toi que ton fichier est dans le dossier 'public'
+              href="projects/cv_portfolio.pdf" // Assure-toi que ton fichier est dans le dossier 'public'
               download
               className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-300 bg-slate-900 border border-slate-700 rounded-xl hover:border-blue-500 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] overflow-hidden"
             >
