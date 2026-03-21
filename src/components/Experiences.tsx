@@ -1,5 +1,5 @@
 import React from 'react';
-import { Briefcase, Calendar, MapPin, Sparkles } from 'lucide-react';
+import { Briefcase, Calendar, MapPin, Sparkles, FileText, Download } from 'lucide-react';
 
 const experiences = [
   {
@@ -115,6 +115,36 @@ const Experiences = () => {
             ))}
           </div>
         </div>
+
+        {/* --- NOUVEAU : BLOC BOUTON CV --- */}
+        <div className="mt-20 flex flex-col items-center">
+          <div className="p-[1px] bg-gradient-to-r from-transparent via-blue-500/50 to-transparent w-full max-w-lg mb-12"></div>
+          
+          <div className="text-center space-y-6">
+            <p className="text-slate-400 text-sm font-medium">
+              Envie d'en savoir plus sur mes compétences détaillées ?
+            </p>
+            
+            <a 
+              href="/cv-nathan-mboueya.pdf" // Assure-toi que ton fichier est dans le dossier 'public'
+              download
+              className="group relative inline-flex items-center justify-center px-8 py-4 font-bold text-white transition-all duration-300 bg-slate-900 border border-slate-700 rounded-xl hover:border-blue-500 hover:shadow-[0_0_30px_rgba(59,130,246,0.2)] overflow-hidden"
+            >
+              {/* Effet de brillance au survol */}
+              <div className="absolute inset-0 w-full h-full transition-all duration-300 opacity-0 group-hover:opacity-10 bg-gradient-to-r from-blue-400 to-cyan-400"></div>
+              
+              <FileText className="mr-3 text-blue-500 group-hover:scale-110 transition-transform duration-300" size={20} />
+              <span className="relative">Télécharger mon CV complet</span>
+              <Download className="ml-3 text-slate-500 group-hover:translate-y-1 transition-transform duration-300" size={18} />
+            </a>
+            
+            <p className="text-[10px] text-slate-600 uppercase tracking-[0.2em]">
+              Format PDF • 1.2 MB
+            </p>
+          </div>
+        </div>
+        {/* --- FIN DU BLOC BOUTON CV --- */}
+
       </div>
     </section>
   );
