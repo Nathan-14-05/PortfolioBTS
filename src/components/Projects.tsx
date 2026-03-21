@@ -8,15 +8,15 @@ import {
 
 const projectsData = [
   {
-    title: "Application SaaS - Feel Agile",
+    title: "Application Blog Communautaire – Node.js",
     category: "web",
-    type: "Projet d'entreprise",
-    status: "Projet privé",
+    type: "Projet scolaire",
+    status: "Open Source",
     statusIcon: <Lock size={12} />,
-    description: "Développement d'une application SaaS complète de gouvernance, risques et conformité informatique. Interface utilisateur optimisée pour la gestion de données complexes.",
-    tags: ["React", "TypeScript", "Laravel", "PostgreSQL"],
+    description: "Conception et développement d’un blog full-stack dans le cadre du BTS SIO SLAM. Le projet repose sur une architecture MVC complète avec rendu côté serveur (SSR), permettant une gestion efficace des utilisateurs et des contenus.",
+    tags: ["Node.js", "Express", "SQLite", "Handlebars"],
     image: "/projects/image-blog-node.png",
-    links: { demo: "#" }
+    links: { github: "https://github.com/Nathan-14-05/Blog_Communautaire", demo: "#" }
   },
   {
     title: "Portfolio 3D Interactif",
