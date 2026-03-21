@@ -3,16 +3,6 @@ import { Briefcase, Calendar, MapPin, Sparkles, FileText, Download } from 'lucid
 
 const experiences = [
   {
-    title: "Stage Développeur Web",
-    company: "Milo Agency",
-    location: "Paris, France",
-    period: "Mai 2025 - Juillet 2025",
-    description: "Développement Low-Code, maquettage de sites web et optimisation SEO. Amélioration de la visibilité numérique de l'entreprise.",
-    skills: ["WordPress", "Webflow", "Figma", "SEO"],
-    type: "Tech",
-    side: "left"
-  },
-  {
     title: "Webmaster",
     company: "Alternance",
     location: "Paris, France",
@@ -20,15 +10,25 @@ const experiences = [
     description: "Conception d'applications, gestion du patrimoine informatique et renforcement de la cybersécurité des services.",
     skills: ["Python", "Java", "PHP", "WordPress", "Trello"],
     type: "Tech",
+    side: "left"
+  },
+  {
+    title: "Stage Développeur Web",
+    company: "Milo Agency",
+    location: "Paris, France",
+    period: "Mai 2025 - Juillet 2025",
+    description: "Développement Low-Code, maquettage de sites web et optimisation SEO. Amélioration de la visibilité numérique de l'entreprise.",
+    skills: ["WordPress", "Webflow", "Figma", "SEO"],
+    type: "Tech",
     side: "right"
   },
   {
-    title: "Projet Base de données SQL",
-    company: "BUT Informatique",
-    location: "Lille, France",
-    period: "Septembre 2024 - Janvier 2025",
-    description: "Conception complète d'une base de données SQL pour la gestion d'un événement (invités, stocks, logistique).",
-    skills: ["MySQL", "SQL", "Modélisation"],
+    title: "Stage Développeur Web",
+    company: "Milo Agency",
+    location: "Paris, France",
+    period: "Janvier 2026 - Février 2026",
+    description: "Gestion et intégration complète de contenus sur plusieurs pages, Réalisation de tests fonctionnels et corrections avant publication des sites, Travail en collaboration avec l’équipe technique.",
+    skills: ["WordPress", "Divi", "JavaScript", "CSS"],
     type: "Tech",
     side: "left"
   },
