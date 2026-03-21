@@ -5,7 +5,8 @@ const nextConfig = {
     unoptimized: true, // Obligatoire car GitHub Pages ne peut pas redimensionner les images à la volée
   },
   // Si ton dépôt s'appelle 'nathan-portfolio', décommente la ligne suivante :
-   basePath: '/nathan-portfolio', 
+   basePath: '/PortfolioBTS', 
+   assetPrefix: '/PortfolioBTS',
 };
 
 export default nextConfig;
