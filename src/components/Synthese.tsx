@@ -2,7 +2,7 @@ import React from 'react';
 import { FileSpreadsheet, Download, ExternalLink, Info } from 'lucide-react';
 
 const Synthese = () => {
-  const pdfUrl = "/Tableau-de-Synthese-Nathan-MBoueya.pdf"; // Nom exact du fichier dans /public
+  const pdfUrl = "projects/Tableau-de-Synthese-Nathan-MBoueya.pdf"; // Nom exact du fichier dans /public
 
   return (
     <section id="synthese" className="py-24 bg-[#030712] px-6">
@@ -63,7 +63,7 @@ const Synthese = () => {
           <Info className="text-blue-500 shrink-0" size={24} />
           <div className="text-sm text-slate-400 leading-relaxed">
             <p className="font-bold text-blue-400 mb-1">Note aux examinateurs :</p>
-            Ce tableau de synthèse répertorie l'ensemble de mes projets (Puissance 4, Blog Node.js, Application Nutritionnelle Laravel...) ainsi que mes périodes de stage en milieu professionnel. Il atteste de la validation des blocs de compétences du référentiel SIO[cite: 1, 4].
+            Ce tableau de synthèse répertorie l'ensemble de mes projets (Puissance 4, Blog Node.js, Application Nutritionnelle Laravel...) ainsi que mes périodes de stage en milieu professionnel. Il atteste de la validation des blocs de compétences du référentiel SIO.
           </div>
         </div>
 
