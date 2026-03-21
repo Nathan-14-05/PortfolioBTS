@@ -15,7 +15,7 @@ const projectsData = [
     statusIcon: <Lock size={12} />,
     description: "Conception et développement d’un blog full-stack dans le cadre du BTS SIO SLAM. Le projet repose sur une architecture MVC complète avec rendu côté serveur (SSR), permettant une gestion efficace des utilisateurs et des contenus.",
     tags: ["Node.js", "Express", "SQLite", "Handlebars"],
-    image: "/projects/image-blog-node.png",
+    image: "/public/projects/image-blog-node.png",
     links: { github: "https://github.com/Nathan-14-05/Blog_Communautaire", demo: "#" }
   },
   {
