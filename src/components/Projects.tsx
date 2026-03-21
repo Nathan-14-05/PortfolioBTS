@@ -15,7 +15,7 @@ const projectsData = [
     statusIcon: <Lock size={12} />,
     description: "Conception et développement d’un blog full-stack dans le cadre du BTS SIO SLAM. Le projet repose sur une architecture MVC complète avec rendu côté serveur (SSR), permettant une gestion efficace des utilisateurs et des contenus.",
     tags: ["Node.js", "Express", "SQLite", "Handlebars"],
-    image: "/public/projects/image-blog-node.png",
+    image: "/projects/image-blog-node.png",
     links: { github: "https://github.com/Nathan-14-05/Blog_Communautaire", demo: "#" }
   },
   {
@@ -33,11 +33,11 @@ const projectsData = [
     title: "Tanso - Création Musicale",
     category: "web",
     type: "Projet de cours",
-    status: "Open Source",
+    status: "Projet scolaire",
     statusIcon: <GraduationCap size={12} />,
-    description: "Application web de création musicale révolutionnaire développée avec Next.js. Interface intuitive basée sur des pads pour la composition en temps réel.",
-    tags: ["Next.js", "Web Audio API", "TailwindCSS"],
-    image: "/api/placeholder/400/220",
+    description: "Projet scolaire consistant à concevoir une base de données à partir d’un besoin client réel : l’organisation d’un mariage. L’objectif était de modéliser, implémenter et exploiter une base regroupant différents prestataires et leurs services.",
+    tags: ["SQL", "Modélisation UML", "Base de données relationnelle"],
+    image: "/projects/bdd_portfolio",
     links: { github: "#", demo: "#" }
   }
 ];
