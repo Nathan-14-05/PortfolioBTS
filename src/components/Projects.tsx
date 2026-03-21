@@ -15,7 +15,7 @@ const projectsData = [
     statusIcon: <Lock size={12} />,
     description: "Conception et développement d’un blog full-stack dans le cadre du BTS SIO SLAM. Le projet repose sur une architecture MVC complète avec rendu côté serveur (SSR), permettant une gestion efficace des utilisateurs et des contenus.",
     tags: ["Node.js", "Express", "SQLite", "Handlebars"],
-    image: "/projects/image-blog-node.png",
+    image: "projects/image-blog-node.png",
     links: { github: "https://github.com/Nathan-14-05/Blog_Communautaire", demo: "#" }
   },
   {
@@ -37,7 +37,7 @@ const projectsData = [
     statusIcon: <GraduationCap size={12} />,
     description: "Projet scolaire consistant à concevoir une base de données à partir d’un besoin client réel : l’organisation d’un mariage. L’objectif était de modéliser, implémenter et exploiter une base regroupant différents prestataires et leurs services.",
     tags: ["SQL", "Modélisation UML", "Base de données relationnelle"],
-    image: "/projects/bdd_portfolio",
+    image: "projects/bdd_portfolio",
     links: { github: "#", demo: "#" }
   }
 ];
