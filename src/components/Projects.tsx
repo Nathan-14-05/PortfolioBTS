@@ -62,6 +62,17 @@ const projectsData = [
     image: "projects/robot-mineurs.png",
     links: { github: "https://github.com/BoujuMaxime/SAE-2.01-02", demo: "#" }
   },
+  {
+    title: "FoodCheck – Scanner Alimentaire",
+    category: "app",
+    type: "Projet scolaire",
+    status: "Open source",
+    statusIcon: <GraduationCap size={12} />,
+    description: "Projet de développement web basé sur Laravel permettant d’interagir avec l’API Open Food Facts. L’application récupère automatiquement les informations d’un produit à partir de son code-barres et permet à l’utilisateur de constituer sa propre base de produits.",
+    tags: ["Laravel", "PHP", "SQLite", "API REST", "Blade"],
+    image: "projects/food-check.png",
+    links: { github: "https://github.com/Nathan-14-05/food-check-app", demo: "#" }
+  },
 ];
 
 const Projects = () => {
