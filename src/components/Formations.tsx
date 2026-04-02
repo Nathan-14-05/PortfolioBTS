@@ -6,8 +6,8 @@ const formations = [
   {
     title: "Baccalauréat Général",
     level: "BAC",
-    school: "Lycée Français Saint-Exupéry",
-    location: "Brazzaville, Congo",
+    school: "Lycée Saint-Exupéry",
+    location: "Paris, France",
     period: "2022 - 2023",
     description: "Spécialités Mathématiques et Sciences économiques et sociales (SES).",
   },
