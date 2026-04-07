@@ -33,7 +33,7 @@ const experiences = [
     side: "left"
   },
   {
-    title: "Job étudiant",
+    title: "Barista Bénévole",
     company: "Starbucks",
     location: "Paris, France",
     period: "Aout 2025 - Décembre 2025",
