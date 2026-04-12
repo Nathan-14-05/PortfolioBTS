@@ -53,7 +53,7 @@ const Skills = () => {
             </div>
             <div className="space-y-4">
               <SkillItem title="Python & Java" desc="POO, Algorithmique" color="bg-blue-600" />
-              <SkillItem title="PHP" desc="Architecture MVC, interaction avec bases de données (SQL)" color="bg-indigo-400" />
+              <SkillItem title="PHP & Laravel" desc="Architecture MVC, interaction avec bases de données (SQL)" color="bg-indigo-400" />
               <SkillItem title="Node.js & Express" desc="Création d’API REST, exécution de JavaScript côté serveur, gestion des routes" color="bg-green-500" />
             </div>
           </div>
